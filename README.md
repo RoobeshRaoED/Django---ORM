@@ -5,15 +5,20 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram
 
-![](Entity%20relationship%20diagaram.png)
+![](Entityrelationshipdiagaram2.png)
 
 ## DESIGN STEPS
 
 ### STEP 1:
+Creating a table using required details in Django--ORM
 
 ### STEP 2:
+Upload the python code.
 
 ### STEP 3:
+push the code to github.
+
+
 
 Write your own steps
 
@@ -28,7 +33,7 @@ from .models import Student,StudentAdmin
 
 admin.site.register(Student,StudentAdmin)  
 
-manage.py:  
+models.py:  
 
 from django.db import models  
 from django.contrib import admin  
@@ -48,7 +53,8 @@ class StudentAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![](Roobesh%20Rao.E.D%2022008573%20user%20addition.png)
+![](Screenshot%20(50).png)
 
 
 ## RESULT
+ORM has been done successfully
